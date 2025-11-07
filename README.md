@@ -17,4 +17,10 @@ This repository will include:
 
 To clone this repository:
 ```bash
-git clone 
+git clone https://github.com/cerciec/Meow-and-Furrever.git
+cd meow-and-furrever
+```
+See the `ROADMAP.md` file for detailed tasks and sprint progress
+## License
+This project is licensed under the [MIT License] (./LICENSE).
+You may use, adapt, or share this project with proper credit.
