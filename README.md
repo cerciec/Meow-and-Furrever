@@ -1,4 +1,5 @@
-# Meow-and-Furrever
+# Meow and Furrever
+### *Because cats deserve care.*
 ## Project Overview
 **Meow and Furrever** is a project dedicated to promoting **responsible cat ownership** and raising awareness about feline health.  
 Cats are often seen as low-maintenance or “self-sufficient,” leading many owners to skip vet visits or neglect preventative care.  
