@@ -32,7 +32,17 @@ Web platform for pet adoption, donation, and emergency care.
 - **Notes / Ideas for Meow & Furrever:**
   - Use their card layout for "My Cat's Profile"
   - Can borrow their form validation patterns for profile input form
-## 2. Cat Care Data and Myths
+## 2. Cat Care Data & Health Info
+### Health Info
+- Vaaccination schedules:
+- Common Diseases:
+- Nutrition & feeding tips:
+- Grooming & hygiene:
+### Behavior Info
+- Social needs:
+- Activity patterns:
+- Unique cat behaviors vs. dogs:
+## 3. Cat Myths & Educational Content
 ### Myth 1
 - **Statement:** "Cats always land on their feet."
 - **Truth / Explanation:** Cats are extremely agile and have a very flexible spine that allows them to twist in mid-air and land on their feet, most of the time. Cats aren’t foolproof and can still injure themselves in falls, often with chin and teeth injuries.
@@ -53,4 +63,30 @@ Web platform for pet adoption, donation, and emergency care.
 - **Statement:** "Cats are aloof and independent."
 - **Truth / Explanation:** Research contradicts the stereotype of the emotionally detached cat. Studies show that cats form genuine attachments to their humans similar to those between children and parents. Many cats experience separation anxiety when their favorite people leave. They often express affection through subtle behaviors like slow blinking, bringing ‘gifts,’ and following their humans from room to room. These social creatures simply communicate differently than dogs do.
 - **Source:** https://www.petmojo.com/cat-myths-people-often-believe-and-what-is-really-true/
-- 
+## 4. UI / UX Patterns
+- Pet profile layouts:
+- Card layouts for displaying pets:
+- Navigation menus / tabs:
+- Forms & input validation:
+## 5. Reminders / Notifications
+- How other apps handle vet visit reminders, feeding schedules, medications:
+- Ideas for implementing reminders for cat health in Meow & Furrever:
+## 6. Visual & Design Inspiration
+- Color schemes:
+- Fonts / typography:
+- Icons & images:
+- Layouts for web vs app-style design:
+## 7. Key Findings / Conclusions
+- Cats have unique needs and behaviors - **they are not small dogs**.
+- Features: pet profiles, reminders, educational content, myth-busting.
+- Notes:
+## 8. References
+- [PetCare App](https://github.com/Project-PetCare/petcare-app)  
+- [ICarlota99 Pet Care App](https://github.com/ICarlota99/Pet-Care-app)
+- [ASPCA – Cat Safety](https://www.aspca.org/pet-care/cat-care)  
+- [Humane Society – Cat Care](https://www.humanesociety.org/resources/caring-your-cat)  
+- [American Association of Feline Practitioners](https://catvets.com/public)
+- [Cats.com](https://cats.com/cat-myths)
+- [Catster.com](https://www.catster.com/lifestyle/cat-myths/)
+- [rd.com](https://www.rd.com/list/common-cat-myths/)
+- [Petmojo](https://www.petmojo.com/cat-myths-people-often-believe-and-what-is-really-true/)
