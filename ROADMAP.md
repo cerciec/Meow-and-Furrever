@@ -31,4 +31,7 @@
 - Prepare content for web or app prototype integration.
   ### Tasks
   #### Design & Prototype
-  - [ ] 
+  - [ ] Create mockups for "My Cat's Profile" UI screens
+  - [ ] Design layout for myth-busting and educational content sections
+  - [ ] Choose visuals for the app (color scheme, typography, etc.)
+ 
