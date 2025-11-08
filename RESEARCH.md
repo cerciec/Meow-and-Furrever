@@ -21,3 +21,14 @@ Web application for tracking pets' general info, health records, and photos.
 - **Notes / Ideas for Meow & Furrever:**
   - Reference UI patterns for web app layout.
   - Could adapt photo gallery for cats or "My Cat's Profile" feature.
+### PetMe
+**Link:** [PetMe](https://github.com/akshitagupta15june/PetMe)
+- **Purpose:**
+Web platform for pet adoption, donation, and emergency care.
+- **Features:**
+  - Pet listing cards with "Adopt me" buttons.
+  - Donation form for pets/strays.
+  - Emergency "SOS" or urgent care section for stray animals.
+- **Notes / Ideas for Meow & Furrever:**
+  - Use their card layout for "My Cat's Profile"
+  - Can borrow their form validation patterns for profile input form
