@@ -12,3 +12,11 @@ for i, item in enumerate(options, start=1):
   print(f"{i}. {item}")
 
 choice = input("\nEnter the number of your choice: ").strip()
+
+if choice.isdigit():
+  index = int(choice) - 1
+  if 0 <= index < len(options)
+    selected = options[index]
+# If they picked the "type my own" option (last item)
+if index == len(options) - 1:
+  custom = input("Type your own value"
