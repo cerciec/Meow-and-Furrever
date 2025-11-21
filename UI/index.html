@@ -33,7 +33,7 @@
                     <ul class="cute-list">
                         <li>They hide pain instead of crying or limping.</li>
                         <li>They’re obligate carnivores with different nutrition needs.</li>
-                        <li>Stress shows up as hiding, not always barking or whining.</li>
+                        <li>Stress shows up as hiding, not barking or whining.</li>
                         <li>“Independent” doesn’t mean they don’t need care and attention.</li>
                     </ul>
                     <p class="tiny-note">
@@ -55,20 +55,78 @@
 
         <div class="paw-divider">⋆ ˚｡⋆୨୧⋆｡˚ ⋆</div>
 
+        <!-- Cat Profile: Form + Example Display -->
         <section class="card card-profile">
             <h2>🐱 Your Cat's Profile</h2>
             <p class="card-intro">
-                One place for your cat’s basic info. In a future version, this will be filled
-                in from your Python <code>cat_profile.py</code> file.
+                This mockup shows how a future version of Meow and Furrever could collect and display your cat’s info.
+                In Sprint 3, this is a visual-only form (no backend connection yet).
             </p>
-            <ul class="cute-list">
-                <li><span class="label">Name:</span> Milo</li>
-                <li><span class="label">Age:</span> 3 years</li>
-                <li><span class="label">Breed:</span> Domestic Shorthair</li>
-                <li><span class="label">Color / Pattern:</span> Tuxedo</li>
-                <li><span class="label">Living Style:</span> Indoor</li>
-            </ul>
-            <p class="tiny-note">Future UI: form fields to add your own cat.</p>
+
+            <div class="profile-layout">
+                <form class="cat-form">
+                    <div class="form-row">
+                        <label for="cat-name">Name</label>
+                        <input id="cat-name" type="text" placeholder="Milo">
+                    </div>
+
+                    <div class="form-row">
+                        <label for="cat-age">Age (years)</label>
+                        <input id="cat-age" type="number" min="0" step="1" placeholder="3">
+                    </div>
+
+                    <div class="form-row">
+                        <label for="cat-breed">Breed</label>
+                        <select id="cat-breed">
+                            <option>Domestic Shorthair</option>
+                            <option>Domestic Longhair</option>
+                            <option>Siamese</option>
+                            <option>Maine Coon</option>
+                            <option>Ragdoll</option>
+                            <option>Other / Mixed</option>
+                        </select>
+                    </div>
+
+                    <div class="form-row">
+                        <label for="cat-pattern">Color / Pattern</label>
+                        <select id="cat-pattern">
+                            <option>Tuxedo</option>
+                            <option>Tabby</option>
+                            <option>Calico</option>
+                            <option>Tortoiseshell</option>
+                            <option>Solid</option>
+                            <option>Other</option>
+                        </select>
+                    </div>
+
+                    <div class="form-row">
+                        <span class="label">Living Style</span>
+                        <div class="radio-group">
+                            <label><input type="radio" name="living-style" checked> Indoor</label>
+                            <label><input type="radio" name="living-style"> Outdoor</label>
+                            <label><input type="radio" name="living-style"> Indoor with supervised outdoor time</label>
+                        </div>
+                    </div>
+
+                    <p class="tiny-note">
+                        Future idea: this form could send data to your Python code and update the profile automatically.
+                    </p>
+                </form>
+
+                <div class="profile-preview">
+                    <h3>Example Profile</h3>
+                    <ul class="cute-list">
+                        <li><span class="label">Name:</span> Milo</li>
+                        <li><span class="label">Age:</span> 3 years</li>
+                        <li><span class="label">Breed:</span> Domestic Shorthair</li>
+                        <li><span class="label">Color / Pattern:</span> Tuxedo</li>
+                        <li><span class="label">Living Style:</span> Indoor</li>
+                    </ul>
+                    <p class="tiny-note">
+                        This represents the kind of profile your app will generate from user input.
+                    </p>
+                </div>
+            </div>
         </section>
 
         <div class="paw-divider">⋆ 🐾 ⋆</div>
@@ -118,6 +176,22 @@
                 Future idea: reminders based on your cat’s age and indoor/outdoor status.
             </p>
         </section>
+
+        <section class="card card-wellness">
+            <h2>🎮 Grooming & Enrichment Ideas</h2>
+            <p class="hint">
+                These tips match what a future <code>care_tips.py</code> file can provide.
+            </p>
+            <ul class="cute-list">
+                <li>Short, daily play sessions are better than once-a-week marathons.</li>
+                <li>Rotate toys so your cat doesn’t get bored of the same ones.</li>
+                <li>Offer vertical space like shelves or cat trees for climbing.</li>
+                <li>Long-haired cats often need daily brushing to prevent mats.</li>
+            </ul>
+            <p class="tiny-note">
+                Future idea: show tailored tips based on coat length, age, and activity level.
+            </p>
+        </section>
     </main>
 
     <footer class="site-footer">
@@ -125,4 +199,5 @@
     </footer>
 </body>
 </html>
+
 
