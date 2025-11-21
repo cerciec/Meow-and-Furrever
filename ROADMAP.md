@@ -17,8 +17,8 @@
 - [ ] Clone and test a related repository
 - [x] Document useful features that could apply to cat-specific care
 #### App Concept Development
-- [ ] Outline cat profile design (name, age, breed, vet info, reminders)
-- [ ] Design myth-busting and cat fact feature sections
+- [x] Outline cat profile design (name, age, breed, vet info, reminders)
+- [x] Design myth-busting and cat fact feature sections
 #### Educational Content
 - [x] Research and summarize top myths about cats
 - [ ] Write educational blurbs promoting vet visits and preventative care
