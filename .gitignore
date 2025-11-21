@@ -1,29 +1,65 @@
+# ------------------------------
 # macOS system files
+# ------------------------------
 .DS_Store
 .DS_Store?
 ._*
 .Spotlight-V100
 .Trashes
-ehthumbs.db
-Thumbs.db
+.AppleDouble
+.LSOverride
 
-# Python cache files
+# ------------------------------
+# Python cache & compiled files
+# ------------------------------
 __pycache__/
 *.py[cod]
 *$py.class
 *.so
+*.pyo
+*.pyd
 
+# ------------------------------
 # Virtual environments
+# ------------------------------
 venv/
 env/
 ENV/
+.venv/
 
-# IDEs
+# ------------------------------
+# IDEs & Editors
+# ------------------------------
 .vscode/
 .idea/
+*.code-workspace
 *.swp
 *.swo
 
-# OS generated files
-.AppleDouble
-.LSOverride
+# ------------------------------
+# Node / Frontend stuff (if added later)
+# ------------------------------
+node_modules/
+dist/
+build/
+
+# ------------------------------
+# Logs & Temporary files
+# ------------------------------
+*.log
+tmp/
+temp/
+*.tmp
+*.bak
+
+# ------------------------------
+# HTML/CSS auto-generated files
+# ------------------------------
+*.map
+
+# ------------------------------
+# OS thumbnails / metadata
+# ------------------------------
+Thumbs.db
+ehthumbs.db
+Desktop.ini
