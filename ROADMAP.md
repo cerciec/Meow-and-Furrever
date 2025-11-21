@@ -14,14 +14,14 @@
 - [x] Create project repository on Github
 - [x] Write initial README and ROADMAP
 - [x] Identify at least one open-source pet care app to evaluate
-- [ ] Clone and test a related repository
+- [x] Clone and test a related repository
 - [x] Document useful features that could apply to cat-specific care
 #### App Concept Development
 - [x] Outline cat profile design (name, age, breed, vet info, reminders)
 - [x] Design myth-busting and cat fact feature sections
 #### Educational Content
 - [x] Research and summarize top myths about cats
-- [ ] Write educational blurbs promoting vet visits and preventative care
+- [x] Write educational blurbs promoting vet visits and preventative care
 - [ ] Collect data on cat vs. dog care trends and common misconceptions
 ## Sprint 2 - Design & Content Creation
 ### Goals
@@ -35,14 +35,14 @@
   - [ ] Design layout for myth-busting and educational content sections
   - [ ] Choose visuals for the app (color scheme, typography, etc.)
   #### Feature Development
-  - [ ] Implement basic "My Cat's Profile" page structure to code
-  - [ ] Add input fields: name, age, breed, vet info, reminders
-  - [ ] Save cat profile information
+  - [x] Implement basic "My Cat's Profile" page structure to code
+  - [x] Add input fields: name, age, breed, vet info, reminders
+  - [x] Save cat profile information
   #### Content Creation
-  - [ ] Draft educational text blurbs for common cat myths
+  - [x] Draft educational text blurbs for common cat myths
   - [ ] Add images or icons supporting cat health awareness
-  - [ ] Format content for easy integration into app or web prototype
+  - [x] Format content for easy integration into app or web prototype
   #### Testing & Review
-  - [ ] Test profile creation flow for bugs or missing fields
+  - [x] Test profile creation flow for bugs or missing fields
   - [ ] Verify content displays correctly in UI mockups
   - [ ] Collect feedback for improvements
